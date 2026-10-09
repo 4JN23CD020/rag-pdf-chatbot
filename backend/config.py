@@ -8,8 +8,12 @@ Central configuration file for the entire project.
 No .env file required.
 ====================================================
 """
+from dotenv import load_dotenv
+
+load_dotenv()
 
 import os
+
 from pathlib import Path
 
 # ====================================================
